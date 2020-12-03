@@ -32,9 +32,10 @@ echo $nome_codificado. "<br>";
 echo $nome_Decodificado. "<br>";
 
 // Exemplo com Header no php
-header('Expire: Mod 26 JUL 1997 05.00:00 GHT');
-header('Cache-control: no-cahce');
-header('Progroma : no-cache');
+// header('Expire: Mod 26 JUL 1997 05.00:00 GHT');
+// header('Cache-control: no-cahce');
+// header('Progroma : no-cache');
 
-header('location : https://laravel.com/');
+// header('location : https://laravel.com/'); Compartilhamento de links pelo header
+
 
