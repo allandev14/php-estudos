@@ -13,3 +13,12 @@ $depois_nome = str_replace('Bruna', 'Angelica', $troca_nome);
 
     echo $depois_nome. "<br>";
 
+// Criptografia com PHP
+
+$md5 = md5('12345');
+
+$sha1 = $sha1('12345');
+
+echo $md5. "<br>";
+echo $sha1. "<br>";
+
