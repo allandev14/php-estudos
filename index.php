@@ -24,11 +24,17 @@ echo $sha1. "<br>";
 
 // Exemplos com codificação do nome 
 $nome_cript = "Carla";
-$nome_codificado = base64_encode($nome_cript);
+$nome_codificado = base64_encode($nome_cript); // padrão para codificação de envio de dados na internet
 $nome_Decodificado = base64_decode($nome_cript);
 
 echo $nome_cript ."<br>";
 echo $nome_codificado. "<br>";
 echo $nome_Decodificado. "<br>";
 
+// Exemplo com Header no php
+header('Expire: Mod 26 JUL 1997 05.00:00 GHT');
+header('Cache-control: no-cahce');
+header('Progroma : no-cache');
+
+header('location : https://laravel.com/');
 
