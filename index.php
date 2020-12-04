@@ -36,6 +36,5 @@ echo $nome_Decodificado. "<br>";
 // header('Cache-control: no-cahce');
 // header('Progroma : no-cache');
 
-// header('location : https://laravel.com/'); Compartilhamento de links pelo header
-
+// header('Location : https://laravel.com/'); Compartilhamento de links pelo header
 
