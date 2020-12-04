@@ -6,7 +6,7 @@
     <title>Formulário senha de email</title>
 </head>
 <body>
-    <form action="Senhaemail.php" method="POST">
+    <form action="sedmail.php" method="POST">
         <label for="nome">Nome Completo</label>
         <br> <br>
         <input type="text" name="nome" placeholder="Qual é o seu nome">
